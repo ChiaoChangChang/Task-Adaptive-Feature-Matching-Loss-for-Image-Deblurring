@@ -1,0 +1,1 @@
+python test.py --dataset GoPro --weights X/Deblurring/models/MPRNet/model_latest.pth --result_dir X --gpus 0

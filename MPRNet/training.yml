@@ -1,0 +1,35 @@
+###############
+## 
+####
+
+# GPU: [0,1,2,3]
+
+GPU: [0, 1]
+
+VERBOSE: True
+
+MODEL:
+  MODE: 'Deblurring'
+  SESSION: 'MPRNet'
+
+# Optimization arguments.
+OPTIM:
+  # BATCH_SIZE: 4
+  BATCH_SIZE: 2
+  NUM_EPOCHS: 3200
+  # NEPOCH_DECAY: [10]
+  # LR_INITIAL: 2e-4
+  LR_INITIAL: 1e-6
+  LR_MIN: 1e-9
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: True
+  TRAIN_PS: 256
+  VAL_PS: 256
+  TRAIN_DIR: './Datasets/GoPro/train' # path to training data
+  VAL_DIR: './Datasets/GoPro/val'     # path to validation data
+  SAVE_DIR: './16_mlp_block3_lw1024_lr1e-4'    # path to save models and images
+  USE_CLIP: True
+  # SAVE_IMAGES: False
