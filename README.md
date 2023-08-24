@@ -1,4 +1,6 @@
 # Task Adaptive Feature Matching Loss for Image Deblurring (ICIP 2023)
+
+#### Chiao-Chang Chang, Bo-Cheng Yang, Yi-Ting Liu, Jun-Cheng Chen, I-Hong Jhuo, Yen-Yu Lin
 [Paper](http://vllab.cs.nctu.edu.tw/images/paper/icip-chang23.pdf)
 
 ## Installation
@@ -11,5 +13,7 @@ Please view [MPRNet](https://github.com/swz30/MPRNet) and [HINet](https://github
 ## Quick Run
 There are shell scripts in MPRNet and HINet files for training and testing.
 
+If you need pretrained weights for our model, download [pretrained weights](https://drive.google.com/drive/folders/1KtzEGdKiag2xLWQABh8CteCcM_TUd0Ad?usp=sharing).
+
 ## Contact
-If you have any question, please contact chiaochangchang@gmail.com
+If you have any question, please contact chiaochangchang@gmail.com.
